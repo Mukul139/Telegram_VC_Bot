@@ -10,7 +10,7 @@ if HEROKU:
     API_ID = int(environ["API_ID"])
     API_HASH = environ["API_HASH"]
     SESSION_STRING = environ[
-        "BQCxf1d08fnKjBHj2f6pln7Zwlcjr5KOGpRVQei2XJFkvONPMO3ufdUHQoQXQCQwRcP9mteqLSqLcNVrqlJ-IYsCKvEPlmgGnBNeXjVWfuwWKgwXXpAx7JGxhPvr4uA4HZqd7YZjd3Rwksc1Q9T7OmStyHDlYH--T9ubVilX1_N5qtaPOVrxqCFPa6gc0CFEIguswJShx2CPDprrHohMil8f1oznpcqazzHHFYjdit-u99GrLU_CZc12TgyZi9VbjkXqgBBiDmFfHmUw7ohcyMDxOUy0NTKQh8GbqJK2YTuGoP3Zp3PNjwb2hmX5AodE-dJ0tpgHoYxaS2tShte-iW4lRMZJ4QE"
+        "SESSION_STRING"
     ]  # Check Readme for session
     ARQ_API_KEY = environ["ARQ_API_KEY"]
     CHAT_ID = int(environ["CHAT_ID"])
